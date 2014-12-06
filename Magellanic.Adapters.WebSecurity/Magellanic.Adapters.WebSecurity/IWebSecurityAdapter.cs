@@ -1,4 +1,4 @@
-﻿namespace Magellanic.Adapter.WebSecurity
+﻿namespace Magellanic.Adapters.WebSecurity
 {
     public interface IWebSecurityAdapter
     {
@@ -27,8 +27,8 @@
         bool LogUserOn(string userName, string password, bool rememberMe);
 
         /// <summary>
-        /// Logs the user out.
+        /// Logs the current user out.
         /// </summary>
-        void LogUserOut();
+        void LogCurrentUserOut();
     }
 }
