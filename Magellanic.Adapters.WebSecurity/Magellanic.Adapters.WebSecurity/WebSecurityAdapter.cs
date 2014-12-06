@@ -1,14 +1,13 @@
 ﻿namespace Magellanic.Adapters.WebSecurity
 {
-    using Magellanic.Adapter.WebSecurity;
     using WebMatrix.WebData;
 
     public class WebSecurityAdapter : IWebSecurityAdapter
     {
         /// <summary>
-        /// Logs the user out.
+        /// Logs the current user out.
         /// </summary>
-        public void LogUserOut()
+        public void LogCurrentUserOut()
         {
             WebSecurity.Logout();
         }
