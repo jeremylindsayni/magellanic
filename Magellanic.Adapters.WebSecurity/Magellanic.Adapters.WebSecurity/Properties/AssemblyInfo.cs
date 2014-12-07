@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Magellanic.Adapters.WebSecurity")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This project is a simple wrapper for the static WebSecurity class (found in WebMatrix.WebData). This can be injected into your class using DI and simplifies unit testing classes that depend on WebMatrix.WebData.WebSecurity.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Jeremy Lindsay")]
 [assembly: AssemblyProduct("Magellanic.Adapters.WebSecurity")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("0.2.0.*")]
+[assembly: AssemblyFileVersion("0.2.0.0")]
