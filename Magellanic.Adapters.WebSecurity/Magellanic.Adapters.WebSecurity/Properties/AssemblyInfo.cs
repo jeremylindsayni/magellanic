@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Magellanic.Adapters.WebSecurity")]
+[assembly: AssemblyTitle("Magellanic.Adapters.WebSecurity (.NET 4.5)")]
 [assembly: AssemblyDescription("This project is a simple wrapper for the static WebSecurity class (found in WebMatrix.WebData). This can be injected into your class using DI and simplifies unit testing classes that depend on WebMatrix.WebData.WebSecurity.")]
-[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyConfiguration("Release configuration, using .NET framework 4.5")]
 [assembly: AssemblyCompany("Jeremy Lindsay")]
 [assembly: AssemblyProduct("Magellanic.Adapters.WebSecurity")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright © 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,8 +28,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-// You can specify all the values or you can default the Build and Revision Numbers 
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.2.0.*")]
-[assembly: AssemblyFileVersion("0.2.0.0")]
+[assembly: AssemblyVersion("0.3.*")]
+[assembly: AssemblyFileVersion("0.3.0.0")]
