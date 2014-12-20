@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Adapters.WebSecurity", "Magellanic.Adapters.WebSecurity\Magellanic.Adapters.WebSecurity.csproj", "{5FA5012A-5A68-408F-AB1C-9DBABBD65408}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5F02FB49-B583-407B-B07A-DD68CF7091AD}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -12,15 +10,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5F02FB
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Adapters.WebSecurity.Mvc4", "Magellanic.Adapters.WebSecurity.Mvc4\Magellanic.Adapters.WebSecurity.Mvc4.csproj", "{5FA5012A-5A68-408F-AB1C-9DBABBD65408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Adapters.WebSecurity.Mvc5", "Magellanic.Adapters.WebSecurity.Mvc5\Magellanic.Adapters.WebSecurity.Mvc5.csproj", "{4C9E61D5-D435-4E18-8B35-6D2D2A6C9709}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
+		SccNumberOfProjects = 3
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs30
 		SccLocalPath0 = .
-		SccProjectUniqueName1 = Magellanic.Adapters.WebSecurity\\Magellanic.Adapters.WebSecurity.csproj
-		SccProjectName1 = Magellanic.Adapters.WebSecurity
-		SccLocalPath1 = Magellanic.Adapters.WebSecurity
+		SccProjectUniqueName1 = Magellanic.Adapters.WebSecurity.Mvc4\\Magellanic.Adapters.WebSecurity.Mvc4.csproj
+		SccProjectName1 = Magellanic.Adapters.WebSecurity.Mvc4
+		SccLocalPath1 = Magellanic.Adapters.WebSecurity.Mvc4
+		SccProjectUniqueName2 = Magellanic.Adapters.WebSecurity.Mvc5\\Magellanic.Adapters.WebSecurity.Mvc5.csproj
+		SccProjectName2 = Magellanic.Adapters.WebSecurity.Mvc5
+		SccLocalPath2 = Magellanic.Adapters.WebSecurity.Mvc5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +36,10 @@ Global
 		{5FA5012A-5A68-408F-AB1C-9DBABBD65408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FA5012A-5A68-408F-AB1C-9DBABBD65408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FA5012A-5A68-408F-AB1C-9DBABBD65408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9E61D5-D435-4E18-8B35-6D2D2A6C9709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9E61D5-D435-4E18-8B35-6D2D2A6C9709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9E61D5-D435-4E18-8B35-6D2D2A6C9709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9E61D5-D435-4E18-8B35-6D2D2A6C9709}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
