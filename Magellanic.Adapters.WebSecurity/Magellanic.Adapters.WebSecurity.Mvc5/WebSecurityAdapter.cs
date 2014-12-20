@@ -1,4 +1,4 @@
-﻿namespace Magellanic.Adapters.WebSecurity
+﻿namespace Magellanic.Adapters.WebSecurity.Mvc5
 {
     using WebMatrix.WebData;
 
