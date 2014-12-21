@@ -1,8 +1,22 @@
-﻿namespace Magellanic.Adapters.WebSecurity.Mvc4
+﻿// ***********************************************************************
+// Assembly         : Magellanic.Adapters.WebSecurity.Mvc4
+// Author           : Jeremy Lindsay
+// Created          : 12-20-2014
+//
+// Last Modified By : Jeremy Lindsay
+// Last Modified On : 12-21-2014
+// ***********************************************************************
+/// <summary>
+/// The WebSecurity.Mvc4 namespace.
+/// </summary>
+namespace Magellanic.Adapters.WebSecurity.Mvc4
 {
     using Magellanic.Interfaces.WebSecurity;
     using WebMatrix.WebData;
 
+    /// <summary>
+    /// The WebSecurityAdapter class.
+    /// </summary>
     public class WebSecurityAdapter : IWebSecurityAdapter
     {
         /// <summary>
@@ -28,7 +42,7 @@
         /// </summary>
         /// <param name="userName">Name of the user.</param>
         /// <param name="password">The password.</param>
-        /// <returns></returns>
+        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
         public bool LogUserOn(string userName, string password)
         {
             return WebSecurity.Login(userName, password);
@@ -40,7 +54,7 @@
         /// <param name="userName">Name of the user.</param>
         /// <param name="password">The password.</param>
         /// <param name="rememberMe">if set to <c>true</c> [remember me].</param>
-        /// <returns></returns>
+        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
         public bool LogUserOn(string userName, string password, bool rememberMe)
         {
             return WebSecurity.Login(userName, password, persistCookie: rememberMe);

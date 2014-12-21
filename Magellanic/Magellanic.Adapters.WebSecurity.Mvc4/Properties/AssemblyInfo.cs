@@ -1,4 +1,12 @@
-﻿using System.Reflection;
+﻿// ***********************************************************************
+// Assembly         : Magellanic.Adapters.WebSecurity.Mvc4
+// Author           : Jeremy Lindsay
+// Created          : 12-20-2014
+//
+// Last Modified By : Jeremy Lindsay
+// Last Modified On : 12-21-2014
+// ***********************************************************************
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
