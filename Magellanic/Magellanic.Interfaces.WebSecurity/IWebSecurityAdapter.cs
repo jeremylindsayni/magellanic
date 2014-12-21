@@ -1,4 +1,4 @@
-﻿namespace Magellanic.Adapters.WebSecurity.Mvc4
+﻿namespace Magellanic.Interfaces.WebSecurity
 {
     public interface IWebSecurityAdapter
     {

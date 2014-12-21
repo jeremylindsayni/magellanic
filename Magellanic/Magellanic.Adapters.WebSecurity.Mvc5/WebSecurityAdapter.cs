@@ -1,5 +1,6 @@
 ﻿namespace Magellanic.Adapters.WebSecurity.Mvc5
 {
+    using Magellanic.Interfaces.WebSecurity;
     using WebMatrix.WebData;
 
     public class WebSecurityAdapter : IWebSecurityAdapter

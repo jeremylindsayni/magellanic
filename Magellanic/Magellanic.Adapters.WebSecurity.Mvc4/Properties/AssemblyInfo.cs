@@ -7,9 +7,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Magellanic.Adapters.WebSecurity.Mvc4 (.NET 4.0)")]
 [assembly: AssemblyDescription("This project is a simple wrapper for the static WebSecurity class (found in WebMatrix.WebData) in an Mvc4 project. This can be injected into your class using DI and simplifies unit testing classes that depend on WebMatrix.WebData.WebSecurity.")]
 [assembly: AssemblyConfiguration("Release configuration, using .NET framework 4.0")]
-[assembly: AssemblyCompany("Jeremy Lindsay")]
+[assembly: AssemblyCompany("Jeremy Lindsay, 2014")]
 [assembly: AssemblyProduct("Magellanic.Adapters.WebSecurity.Mvc4")]
-[assembly: AssemblyCopyright("Copyright © 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,4 +28,3 @@ using System.Runtime.InteropServices;
 //      Revision
 //
 [assembly: AssemblyVersion("0.4.*")]
-[assembly: AssemblyFileVersion("0.4.0.0")]
