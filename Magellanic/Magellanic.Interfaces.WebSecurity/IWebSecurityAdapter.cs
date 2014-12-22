@@ -30,7 +30,7 @@ namespace Magellanic.Interfaces.WebSecurity
         /// </summary>
         /// <param name="userName">Name of the user.</param>
         /// <param name="password">The password.</param>
-        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        /// <returns><c>true</c> if successfully logged on, <c>false</c> otherwise.</returns>
         bool LogUserOn(string userName, string password);
 
         /// <summary>
@@ -38,8 +38,8 @@ namespace Magellanic.Interfaces.WebSecurity
         /// </summary>
         /// <param name="userName">Name of the user.</param>
         /// <param name="password">The password.</param>
-        /// <param name="rememberMe">if set to <c>true</c> [remember me].</param>
-        /// <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        /// <param name="rememberMe">if set to <c>true</c> ensure any successful log on is persisted on the client.</param>
+        /// <returns><c>true</c> if if successfully logged on, <c>false</c> otherwise.</returns>
         bool LogUserOn(string userName, string password, bool rememberMe);
 
         /// <summary>
