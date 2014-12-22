@@ -17,8 +17,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("Release configuration, using .NET framework 4.0")]
 [assembly: AssemblyCompany("Jeremy Lindsay, 2014")]
 [assembly: AssemblyProduct("Magellanic.Adapters.WebSecurity.Mvc4")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
