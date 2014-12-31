@@ -26,9 +26,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Domain", "Magell
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Providers.Authentication", "Magellanic.Providers.Authentication\Magellanic.Providers.Authentication.csproj", "{850DCAA3-292F-4EC4-AC0B-2C4F296CEE70}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F16F6B49-1A95-41BC-A001-0BA67DFB47ED}"
+	ProjectSection(SolutionItems) = preProject
+		CustomDictionary.xml = CustomDictionary.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Expansion.Ioc.Autofac", "Magellanic.Expansion.Ioc.Autofac\Magellanic.Expansion.Ioc.Autofac.csproj", "{F3868E18-8B36-4AFD-95F1-64C5898DAD26}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
+		SccNumberOfProjects = 10
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs30
 		SccLocalPath0 = .
@@ -56,6 +63,9 @@ Global
 		SccProjectUniqueName8 = Magellanic.Providers.Authentication\\Magellanic.Providers.Authentication.csproj
 		SccProjectName8 = Magellanic.Providers.Authentication
 		SccLocalPath8 = Magellanic.Providers.Authentication
+		SccProjectUniqueName9 = Magellanic.Expansion.Ioc.Autofac\\Magellanic.Expansion.Ioc.Autofac.csproj
+		SccProjectName9 = Magellanic.Expansion.Ioc.Autofac
+		SccLocalPath9 = Magellanic.Expansion.Ioc.Autofac
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -94,6 +104,10 @@ Global
 		{850DCAA3-292F-4EC4-AC0B-2C4F296CEE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{850DCAA3-292F-4EC4-AC0B-2C4F296CEE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{850DCAA3-292F-4EC4-AC0B-2C4F296CEE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3868E18-8B36-4AFD-95F1-64C5898DAD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3868E18-8B36-4AFD-95F1-64C5898DAD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3868E18-8B36-4AFD-95F1-64C5898DAD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3868E18-8B36-4AFD-95F1-64C5898DAD26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

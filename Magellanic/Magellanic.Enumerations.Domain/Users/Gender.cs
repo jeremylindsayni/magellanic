@@ -14,7 +14,7 @@ namespace Magellanic.Enumerations.Domain.Users
     /// <summary>
     /// The Gender enumeration.
     /// </summary>
-    public enum Gender
+    public enum Gender : int
 	{
         /// <summary>
         /// The male gender type.

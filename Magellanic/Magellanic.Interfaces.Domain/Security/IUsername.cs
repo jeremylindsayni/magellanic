@@ -1,5 +1,5 @@
 ﻿// ***********************************************************************
-// Assembly         : Magellanic.Interfaces.Providers
+// Assembly         : Magellanic.Interfaces.Domain
 // Author           : Jeremy Lindsay
 // Created          : 22-Dec-2014
 //
@@ -7,14 +7,19 @@
 // Last Modified On : 22-Dec-2014
 // ***********************************************************************
 /// <summary>
-/// The Providers namespace.
+/// The Security namespace.
 /// </summary>
-namespace Magellanic.Interfaces.Providers
+namespace Magellanic.Interfaces.Domain.Security
 {
     /// <summary>
-    /// The IProvider interface.
+    /// The IUserName interface.
     /// </summary>
-    public interface IProvider
+    public interface IUserName
     {
+        /// <summary>
+        /// Gets or sets the name of the user.
+        /// </summary>
+        /// <value>The name of the user.</value>
+        string UserName { get; set; }
     }
 }

@@ -1,25 +1,25 @@
 ﻿// ***********************************************************************
 // Assembly         : Magellanic.Interfaces.Domain
 // Author           : Jeremy Lindsay
-// Created          : 12-21-2014
+// Created          : 31-Dec-2014
 //
 // Last Modified By : Jeremy Lindsay
-// Last Modified On : 12-21-2014
+// Last Modified On : 31-Dec-2014
 // ***********************************************************************
 /// <summary>
-/// The Security namespace.
+/// The Domain namespace.
 /// </summary>
-namespace Magellanic.Interfaces.Domain.Security
+namespace Magellanic.Interfaces.Domain
 {
     /// <summary>
-    /// The ICredentials interface.
+    /// The IFoundationId interface.
     /// </summary>
-    public interface ICredentials : IUserName
+    public interface IFoundationId
     {
         /// <summary>
-        /// Gets or sets the password.
+        /// Gets or sets the identifier.
         /// </summary>
-        /// <value>The password.</value>
-        string Password { get; set; }
+        /// <value>The identifier.</value>
+        long Id { get; set; }
     }
 }

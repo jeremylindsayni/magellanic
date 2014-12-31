@@ -1,7 +1,7 @@
 ﻿// ***********************************************************************
-// Assembly         : Magellanic.Providers.Authentication
+// Assembly         : Magellanic.Ioc.Autofac
 // Author           : Jeremy Lindsay
-// Created          : 22-Dec-2014
+// Created          : 28-Dec-2014
 //
 // Last Modified By : Jeremy Lindsay
 // Last Modified On : 28-Dec-2014
@@ -14,8 +14,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Magellanic.Providers.Authentication")]
-[assembly: AssemblyDescription("Authentication provider implementation, using the IWebSecurityAdapter dependency.")]
+[assembly: AssemblyTitle("Magellanic.Expansion.Ioc.Autofac")]
+[assembly: AssemblyDescription("An assembly to register all composable types for the Autofac IoC container.")]
 
 #if DEBUG
 #if NET_45_OR_GREATER
@@ -31,9 +31,8 @@ using System.Runtime.InteropServices;
 #endif
 #endif
 
-
-[assembly: AssemblyCompany("Jeremy Lindsay, 2014")]
-[assembly: AssemblyProduct("Magellanic.Providers.Authentication")]
+[assembly: AssemblyCompany("Jeremy Lindsay")]
+[assembly: AssemblyProduct("Magellanic.Expansion.Ioc.Autofac")]
 [assembly: NeutralResourcesLanguageAttribute("en-US")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -43,7 +42,7 @@ using System.Runtime.InteropServices;
 [assembly: CLSCompliant(true)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("51d4c8dc-4df0-4e10-a23a-511784ec74a2")]
+[assembly: Guid("30da48e7-e2f3-4301-ba0d-f4e0086a1230")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -52,4 +51,6 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
+// You can specify all the values or you can default the Build and Revision Numbers 
+// by using the '*' as shown below:
 [assembly: AssemblyVersion("0.1.*")]

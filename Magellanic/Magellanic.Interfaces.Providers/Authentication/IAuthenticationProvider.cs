@@ -12,11 +12,14 @@
 namespace Magellanic.Interfaces.Providers.Authentication
 {
     using Magellanic.Interfaces.Domain.Security;
+    using Magellanic.Interfaces.Providers.Contracts.Authentication;
+    using System.Diagnostics.Contracts;
 
     /// <summary>
     /// The IAuthenticationProvider interface.
     /// </summary>
-    public interface IAuthenticationProvider : IProvider
+    [ContractClass(typeof(AuthenticationProviderContract))]
+    public interface IAuthenticationProvider
     {
         /// <summary>
         /// Logs the current user out.
