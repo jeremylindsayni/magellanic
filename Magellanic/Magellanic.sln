@@ -18,8 +18,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Interfaces.WebSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Interfaces.Domain", "Magellanic.Interfaces.Domain\Magellanic.Interfaces.Domain.csproj", "{E56EFD45-5FE6-4543-A30C-0956306FE439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Enumerations.Domain", "Magellanic.Enumerations.Domain\Magellanic.Enumerations.Domain.csproj", "{613B1B2A-9BAE-41EB-89F7-D7DAB1E584DF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Interfaces.Providers", "Magellanic.Interfaces.Providers\Magellanic.Interfaces.Providers.csproj", "{142A6E27-B4DE-4D49-BC53-FDC63D6B517C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Domain", "Magellanic.Domain\Magellanic.Domain.csproj", "{238DFCAD-C145-49A2-8393-60F2D2EB3780}"
@@ -33,39 +31,62 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Expansion.Ioc.Autofac", "Magellanic.Expansion.Ioc.Autofac\Magellanic.Expansion.Ioc.Autofac.csproj", "{F3868E18-8B36-4AFD-95F1-64C5898DAD26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Enumerations", "Magellanic.Enumerations\Magellanic.Enumerations.csproj", "{613B1B2A-9BAE-41EB-89F7-D7DAB1E584DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Web.Mvc", "Magellanic.Web.Mvc\Magellanic.Web.Mvc.csproj", "{22CD76C4-42D3-4A6B-8EC5-5A0E0206BA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magellanic.Web.Mvc.Tests", "Magellanic.Web.Mvc.Tests\Magellanic.Web.Mvc.Tests.csproj", "{B53926AC-BD83-44D9-B6CC-F89ABC50F8C6}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 10
+		SccNumberOfProjects = 9
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs30
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Magellanic.Adapters.WebSecurity.Mvc4\\Magellanic.Adapters.WebSecurity.Mvc4.csproj
-		SccProjectName1 = Magellanic.Adapters.WebSecurity.Mvc4
-		SccLocalPath1 = Magellanic.Adapters.WebSecurity.Mvc4
-		SccProjectUniqueName2 = Magellanic.Adapters.WebSecurity.Mvc5\\Magellanic.Adapters.WebSecurity.Mvc5.csproj
-		SccProjectName2 = Magellanic.Adapters.WebSecurity.Mvc5
-		SccLocalPath2 = Magellanic.Adapters.WebSecurity.Mvc5
-		SccProjectUniqueName3 = Magellanic.Interfaces.WebSecurity\\Magellanic.Interfaces.WebSecurity.csproj
-		SccProjectName3 = Magellanic.Interfaces.WebSecurity
-		SccLocalPath3 = Magellanic.Interfaces.WebSecurity
-		SccProjectUniqueName4 = Magellanic.Interfaces.Domain\\Magellanic.Interfaces.Domain.csproj
-		SccProjectName4 = Magellanic.Interfaces.Domain
-		SccLocalPath4 = Magellanic.Interfaces.Domain
-		SccProjectUniqueName5 = Magellanic.Enumerations.Domain\\Magellanic.Enumerations.Domain.csproj
-		SccProjectName5 = Magellanic.Enumerations.Domain
-		SccLocalPath5 = Magellanic.Enumerations.Domain
-		SccProjectUniqueName6 = Magellanic.Interfaces.Providers\\Magellanic.Interfaces.Providers.csproj
-		SccProjectName6 = Magellanic.Interfaces.Providers
-		SccLocalPath6 = Magellanic.Interfaces.Providers
+		SccProjectUniqueName0 = Magellanic.Enumerations\\Magellanic.Enumerations.csproj
+		SccProjectName0 = Magellanic.Enumerations
+		SccAuxPath0 = https://tfs.codeplex.com/tfs/tfs30
+		SccLocalPath0 = Magellanic.Enumerations
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Magellanic.Interfaces.Domain\\Magellanic.Interfaces.Domain.csproj
+		SccProjectName1 = Magellanic.Interfaces.Domain
+		SccAuxPath1 = https://tfs.codeplex.com/tfs/tfs30
+		SccLocalPath1 = Magellanic.Interfaces.Domain
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Magellanic.Interfaces.Providers\\Magellanic.Interfaces.Providers.csproj
+		SccProjectName2 = Magellanic.Interfaces.Providers
+		SccAuxPath2 = https://tfs.codeplex.com/tfs/tfs30
+		SccLocalPath2 = Magellanic.Interfaces.Providers
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = Magellanic.Providers.Authentication\\Magellanic.Providers.Authentication.csproj
+		SccProjectName3 = Magellanic.Providers.Authentication
+		SccAuxPath3 = https://tfs.codeplex.com/tfs/tfs30
+		SccLocalPath3 = Magellanic.Providers.Authentication
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = Magellanic.Interfaces.WebSecurity\\Magellanic.Interfaces.WebSecurity.csproj
+		SccProjectName4 = Magellanic.Interfaces.WebSecurity
+		SccAuxPath4 = https://tfs.codeplex.com/tfs/tfs30
+		SccLocalPath4 = Magellanic.Interfaces.WebSecurity
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = Magellanic.Adapters.WebSecurity.Mvc4\\Magellanic.Adapters.WebSecurity.Mvc4.csproj
+		SccProjectName5 = Magellanic.Adapters.WebSecurity.Mvc4
+		SccAuxPath5 = https://tfs.codeplex.com/tfs/tfs30
+		SccLocalPath5 = Magellanic.Adapters.WebSecurity.Mvc4
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName6 = Magellanic.Adapters.WebSecurity.Mvc5\\Magellanic.Adapters.WebSecurity.Mvc5.csproj
+		SccProjectName6 = Magellanic.Adapters.WebSecurity.Mvc5
+		SccAuxPath6 = https://tfs.codeplex.com/tfs/tfs30
+		SccLocalPath6 = Magellanic.Adapters.WebSecurity.Mvc5
+		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccProjectUniqueName7 = Magellanic.Domain\\Magellanic.Domain.csproj
 		SccProjectName7 = Magellanic.Domain
+		SccAuxPath7 = https://tfs.codeplex.com/tfs/tfs30
 		SccLocalPath7 = Magellanic.Domain
-		SccProjectUniqueName8 = Magellanic.Providers.Authentication\\Magellanic.Providers.Authentication.csproj
-		SccProjectName8 = Magellanic.Providers.Authentication
-		SccLocalPath8 = Magellanic.Providers.Authentication
-		SccProjectUniqueName9 = Magellanic.Expansion.Ioc.Autofac\\Magellanic.Expansion.Ioc.Autofac.csproj
-		SccProjectName9 = Magellanic.Expansion.Ioc.Autofac
-		SccLocalPath9 = Magellanic.Expansion.Ioc.Autofac
+		SccProvider7 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName8 = Magellanic.Expansion.Ioc.Autofac\\Magellanic.Expansion.Ioc.Autofac.csproj
+		SccProjectName8 = Magellanic.Expansion.Ioc.Autofac
+		SccAuxPath8 = https://tfs.codeplex.com/tfs/tfs30
+		SccLocalPath8 = Magellanic.Expansion.Ioc.Autofac
+		SccProvider8 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,10 +109,6 @@ Global
 		{E56EFD45-5FE6-4543-A30C-0956306FE439}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E56EFD45-5FE6-4543-A30C-0956306FE439}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E56EFD45-5FE6-4543-A30C-0956306FE439}.Release|Any CPU.Build.0 = Release|Any CPU
-		{613B1B2A-9BAE-41EB-89F7-D7DAB1E584DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{613B1B2A-9BAE-41EB-89F7-D7DAB1E584DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{613B1B2A-9BAE-41EB-89F7-D7DAB1E584DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{613B1B2A-9BAE-41EB-89F7-D7DAB1E584DF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{142A6E27-B4DE-4D49-BC53-FDC63D6B517C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{142A6E27-B4DE-4D49-BC53-FDC63D6B517C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{142A6E27-B4DE-4D49-BC53-FDC63D6B517C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -108,6 +125,18 @@ Global
 		{F3868E18-8B36-4AFD-95F1-64C5898DAD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3868E18-8B36-4AFD-95F1-64C5898DAD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3868E18-8B36-4AFD-95F1-64C5898DAD26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613B1B2A-9BAE-41EB-89F7-D7DAB1E584DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613B1B2A-9BAE-41EB-89F7-D7DAB1E584DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613B1B2A-9BAE-41EB-89F7-D7DAB1E584DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613B1B2A-9BAE-41EB-89F7-D7DAB1E584DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CD76C4-42D3-4A6B-8EC5-5A0E0206BA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CD76C4-42D3-4A6B-8EC5-5A0E0206BA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CD76C4-42D3-4A6B-8EC5-5A0E0206BA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CD76C4-42D3-4A6B-8EC5-5A0E0206BA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53926AC-BD83-44D9-B6CC-F89ABC50F8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53926AC-BD83-44D9-B6CC-F89ABC50F8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53926AC-BD83-44D9-B6CC-F89ABC50F8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53926AC-BD83-44D9-B6CC-F89ABC50F8C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

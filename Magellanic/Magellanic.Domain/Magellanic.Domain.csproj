@@ -103,9 +103,9 @@
     <Compile Include="Users\Person.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Magellanic.Enumerations.Domain\Magellanic.Enumerations.Domain.csproj">
+    <ProjectReference Include="..\Magellanic.Enumerations\Magellanic.Enumerations.csproj">
       <Project>{613b1b2a-9bae-41eb-89f7-d7dab1e584df}</Project>
-      <Name>Magellanic.Enumerations.Domain</Name>
+      <Name>Magellanic.Enumerations</Name>
     </ProjectReference>
     <ProjectReference Include="..\Magellanic.Interfaces.Domain\Magellanic.Interfaces.Domain.csproj">
       <Project>{e56efd45-5fe6-4543-a30c-0956306fe439}</Project>
