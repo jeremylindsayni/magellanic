@@ -106,18 +106,18 @@
     <Compile Include="Security\ICredentials.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Magellanic.Enumerations.Domain\Magellanic.Enumerations.Domain.csproj">
-      <Project>{613b1b2a-9bae-41eb-89f7-d7dab1e584df}</Project>
-      <Name>Magellanic.Enumerations.Domain</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <CodeAnalysisDictionary Include="..\CustomDictionary.xml">
       <Link>CustomDictionary.xml</Link>
     </CodeAnalysisDictionary>
   </ItemGroup>
   <ItemGroup>
     <None Include="magellanicKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Magellanic.Enumerations\Magellanic.Enumerations.csproj">
+      <Project>{613b1b2a-9bae-41eb-89f7-d7dab1e584df}</Project>
+      <Name>Magellanic.Enumerations</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

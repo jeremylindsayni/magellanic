@@ -12,6 +12,7 @@
 namespace Magellanic.Domain.Users
 {
     using Magellanic.Enumerations.Domain.Users;
+    using Magellanic.Interfaces.Domain;
     using Magellanic.Interfaces.Domain.Security;
 
     /// <summary>
